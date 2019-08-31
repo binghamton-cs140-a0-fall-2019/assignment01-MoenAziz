@@ -1,0 +1,93 @@
+
+TESTS FOR Computer.java:
+Dell, Intel 7700k, 8GB Memory, 3.0TB Solid State Drive, Price: $1400.00 
+ASUS, Intel 8700k, 16GB Memory, 300GB Hard Drive, Price: $700.00 
+Samsung, Intel 4700k, 12GB Memory, 5.0TB Solid State Drive, Price: $900.00 
+Acer, Intel 5700k, 32GB Memory, 100GB Hard Drive, Price: $500.00 
+
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-12-27, Brooklyn, NY, USA
+Date and place of birth: 1999-12-27, Los Angeles, CA, USA
+Date and place of birth: 2000-12-27, Queens, NY, USA
+Date and place of birth: 2001-03-08, Moscow, RU
+Date and place of birth: 1998-06-08, London, UK
+
+Testing olderThan method...
+false
+true
+true
+false
+true
+true
+false
+true
+false
+
+Testing youngerThan method...
+false
+false
+false
+true
+false
+false
+true
+false
+true
+
+Testing hasSameBirthDateAs method...
+true
+false
+false
+false
+false
+false
+false
+false
+false
+
+Testing hasSameBirthDayAs method...
+true
+true
+false
+false
+true
+false
+false
+false
+false
+
+Completed
+
+TESTS FOR StreetUSAddress.java:
+246 74th st
+Brooklyn, NY 11209
+
+4400 Vestal Pkwy E
+PO Box 134
+Binghamton, NY 13902
+
+TESTS FOR Person.java:
+Moen Aziz (123-45-6789) 
+Date and place of birth: 1999-12-27, Brooklyn, NY, USA
+246 74th st
+Manhattan, NY 11209
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Moen Aziz (123-45-6789) 
+Date and place of birth: 1999-12-27, Brooklyn, NY, USA
+246 74th st
+Manhattan, NY 11209
+Computers: [Dell, Intel 7700k, 8GB Memory, 3.0TB Solid State Drive, Price: $1400.00 , ASUS, Intel 8700k, 16GB Memory, 300GB Hard Drive, Price: $700.00 , Samsung, Intel 4700k, 12GB Memory, 5.0TB Solid State Drive, Price: $900.00 , Acer, Intel 3700k, 32GB Memory, 200GB Hard Drive, Price: $500.00 ]
+
+Computer List, Owner: Moen Aziz (123-45-6789) 
+Date and place of birth: 1999-12-27, Brooklyn, NY, USA
+246 74th st
+Manhattan, NY 11209
+Computers: [ASUS, Intel 8700k, 16GB Memory, 300GB Hard Drive, Price: $700.00 , Samsung, Intel 4700k, 12GB Memory, 5.0TB Solid State Drive, Price: $900.00 ]
+
+
+TESTS FOR SimpleDate.java:
+Date one is not before Date two
+
+Date one is before Date two
