@@ -1,6 +1,5 @@
 package assignment01;
 
-
 public class SimpleDate {
 	
 	private int year;

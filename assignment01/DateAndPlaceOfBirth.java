@@ -1,5 +1,6 @@
 package assignment01;
 
+
 import java.time.LocalDate;
 /**
  * Class to store a data and place of birth.
