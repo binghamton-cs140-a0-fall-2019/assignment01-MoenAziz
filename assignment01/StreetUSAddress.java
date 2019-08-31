@@ -1,4 +1,5 @@
 package assignment01;
+
 /**
  * SORRY: I did not have time for the javadocs
  * @author CS 140
@@ -64,7 +65,7 @@ public class StreetUSAddress {
 	 */	
 	public String getZipCode() {
     // TODO return the appropriate String
-	    return zipC
+	    return zipCode;
 	}
 	@Override
 	public String toString() {
