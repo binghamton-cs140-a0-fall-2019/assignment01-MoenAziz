@@ -65,6 +65,7 @@ public class StreetUSAddress {
 	 */	
 	public String getZipCode() {
     // TODO return the appropriate String
+	
 	    return zipCode;
 	}
 	@Override
